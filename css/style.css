@@ -1,0 +1,36 @@
+:root {
+    --font-silver-color: rgba(51, 51, 51, 0.7);
+    --font-black-color: #333333;
+    --font-white-color: #FFFFFF;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: var(--font-white-color);
+  padding: 17px 165px;
+  max-width: 165vw;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.adress {
+    width: 285px;
+    border-right: 1px solid rgba(51, 51, 51, 0.1)
+}
