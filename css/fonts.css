@@ -482,7 +482,7 @@
 
   /* Fonts */
 
-/* @font-face {
+@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 100;
@@ -639,4 +639,3 @@
   src: url("../fonts/Inter-BlackItalic.woff2?v=3.19") format("woff2"),
   url("../fonts/Inter-BlackItalic.woff?v=3.19") format("woff");
 }
-*/

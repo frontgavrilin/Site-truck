@@ -38,24 +38,34 @@ h1, p {
 }
 
 .adress {
-    width: 285px;
+  width: 285px;
 }
 
 .header-up {
   column-gap: 8px;
-  align-items: center;  
+  align-items: center;
+}
+
+.header-toppp {
+  flex-direction: column;
+  width: 152px;
 }
 
 .header-down {
   align-items: center;
-  margin-left: 29px;
-  margin-top: 4px;
+  margin-left: 28px;
+  /* margin-top: 4px; */
+  width: 285px;
   
 }
 
 .header-top {
   flex-direction: column;
+  width: 238px;
+  /* margin-right: 150px; */
+  /* padding-right: 165px; */
 }
+
 
 .header-left {
   border-right: 1px solid rgba(51, 51, 51, 0.1);
