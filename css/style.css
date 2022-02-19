@@ -78,6 +78,63 @@ h1, p {
   justify-content: space-between;
 }
 
+.header-bottom {
+  justify-content: space-between;
+  margin: 8px;
+  margin-left: -11px;
+  margin-right: 0;
+  align-items: center;
+}
+
+.menu {
+  column-gap: 46px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.call {
+  height: 40px;
+  width: 179px;
+  background-color: #4762FF;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.order {
+  position: relative;
+  margin: 11px 23px 10px;
+  align-items: center;
+}
+
+.text {
+  column-gap: 16px;
+  flex-direction: column;
+}
+
+.what-do {
+  position: relative;
+  top: 32px;
+  background-color: #4762FF;
+  border-radius: 8px;
+  align-items: center;
+  height: 52px;
+  width: 196px;
+  text-align: center;
+}
+
+.preview-text {
+  position: relative;
+  top: 77px;
+  flex-direction: column;
+}
+
+.bg-truck {
+  position: absolute;
+  left: 644px;
+}
+
 /* Typography */
 
 .inter-16-500 {
@@ -86,6 +143,8 @@ h1, p {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  color: #333333;
+
 }
 
 .inter-8 {
@@ -101,8 +160,9 @@ h1, p {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 60px;
+  line-height: 76px;
+  color: #333333;
 }
 
 .inter-14-300 {
@@ -121,6 +181,15 @@ h1, p {
   font-size: 14px;
   line-height: 17px;
   color : rgba(51, 51, 51, 0.7);
+}
+
+.inter-14-600 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color : #FFFFFF;
 }
 
 
