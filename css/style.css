@@ -8,6 +8,7 @@
 html {
     box-sizing: border-box;
     width: 1440px;
+    margin-right: 0;
 }
 
 *,
@@ -24,7 +25,7 @@ body {
   /* border-bottom: 1px solid rgba(51, 51, 51, 0.1); */
 }
 
-h1, p {
+h1, p, h2 {
   margin: 0;
 }
 
@@ -94,7 +95,8 @@ a {
 }
 
 .preview-truck {
-  margin-left: 12px
+  /* margin-left: 12px */
+  /* margin-left: 9px; */
 }
 
 .call {
@@ -258,6 +260,141 @@ a {
   grid-column-start: 2;
 }
 
+.about {
+  height: 558px;
+  width: 1275px;
+}
+
+.scania, .volvo  {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.map {
+  width: 1275px;
+  height: 541px;
+}
+
+.location {
+  margin-left: 21px;
+}
+
+.we {
+  margin: 96px 55px 41px 0;
+}
+
+.lorem-text {
+  margin-bottom: 16px;
+}
+
+.questions {
+  margin-left: -165px;
+  height: 687px;
+  width: 1440px;
+  background-image: url(/img/Truck\ holding.png);
+}
+
+.questions-place {
+  flex-direction: column;
+  background-color: var(--font-white-color);
+  height: 548px;
+  width: 611px;
+  border-radius: 19px;
+  margin-left: 664px ;
+  margin-top: 70px;
+}
+
+.block {
+  margin-top: 39px;
+  margin-left: 71px;
+}
+
+.quest-rew {
+  margin-top: 16px;
+  margin-left: 71px;
+  width: 467px;
+  height: 44px;
+}
+
+.block-name {
+  background: rgba(71, 98, 255, 0.08);
+  border-radius: 8px;
+  height: 56px;
+  width: 469px;
+  margin: 35px 71px 23px;
+  align-items: center;
+}
+
+.m-zero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name {
+  width: 426px;
+  height: 19px;
+  margin: 19px 21px 18px 22px;
+}
+
+.send-button {
+  margin: 37px 71px 40px;
+  width: 469px;
+  height: 66px;
+  background: #4762FF;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #1A1A1A;
+  margin-left: -165px;
+  height: 391px;
+  width: 1440px;
+  flex-direction: column;
+}
+
+.f-logo {
+  height: 40px;
+  width: 200px;
+  margin: 50px 76px 240px 146px;
+}
+
+.f-other {
+  width: 887px;
+  height: 213px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.f-main {
+  flex-direction: column;
+}
+
+.h-main {
+  margin-bottom: 15px;
+}
+
+.f-bottom {
+  margin-bottom: 8px;
+}
+
+.f-right {
+  margin-right: 4px;
+  color: #FFFFFF;
+}
+
+.wa-logo {
+  margin-bottom: 19px;
+  align-items: center;
+}
+
+.copyriht {
+  height: 61px;
+  border-top: 0.7px solid #474747;
+  align-items: center;
+  margin: 18px 158px 19px 158px;
+  padding-top: 9px;
+}
+
 /* Typography */
 
 .inter-16-500 {
@@ -267,7 +404,6 @@ a {
   font-size: 16px;
   line-height: 19px;
   color: #333333;
-
 }
 
 .inter-8 {
@@ -367,6 +503,51 @@ a {
   font-size: 48px;
   line-height: 58px;
   color: #333333;
+}
+
+.inter-56-bold {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  color: #333333;
+}
+
+.inter-24-normal-w {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.inter-20-normal {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.inter-16-normal-w {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF
+}
+
+.inter-12-normal-nw {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #D9DBE1;
 }
 
 
