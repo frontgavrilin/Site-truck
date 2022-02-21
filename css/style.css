@@ -66,7 +66,6 @@ h1, p {
   /* padding-right: 165px; */
 }
 
-
 .header-left {
   border-right: 1px solid rgba(51, 51, 51, 0.1);
   margin-right: 19px;
@@ -94,6 +93,10 @@ a {
   text-decoration: none;
 }
 
+.preview-truck {
+  margin-left: 12px
+}
+
 .call {
   height: 40px;
   width: 179px;
@@ -103,21 +106,25 @@ a {
 }
 
 .order {
-  position: relative;
+  /* position: relative; */
   margin: 11px 23px 10px;
   align-items: center;
 }
 
 .text {
-  column-gap: 16px;
+  /* column-gap: 16px; */
   flex-direction: column;
   margin-bottom: 32px;
 }
 
 .text-logo {
-  position: relative;
   height: 152px;
   width: 540px;
+}
+
+.about-p {
+  height: 44px;
+  width: 496px;
 }
 
 .what {
@@ -129,36 +136,39 @@ a {
 }
 
 .what-do {
-  position: relative;
   margin: 11px 37px;
   align-items: center;
 }
 
+.preview {
+  margin-top: 77px;
+}
 
 .preview-text {
-  position: relative;
-  top: 77px;
+  height: 152px;
+  width: 479px;
   flex-direction: column;
 }
 
-.bg-truck {
-  position: absolute;
-  left: 644px;
+.section {
+  height: 110px;
+  width: 648px;
+  margin: 0;
+  margin-top: 29px;
 }
 
-.offer{
-  position: relative;
+.offer {
   flex-direction: column;
   align-items: center;
-  margin: 0;
-  top: 303px;
-  left: 32px;
   text-align: center;
+  margin-top: 29px;
 }
 
 .offer-about {
+  height: 48px;
+  width: 648px;
   margin: 0;
-  padding-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .grid {
@@ -166,7 +176,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 36px;
-
+  margin-left: 32px;
+  margin: 48px 32px 58px;
 }
 
 .about-card {
@@ -193,14 +204,59 @@ a {
   mix-blend-mode: multiply;
 }
 
+.about {  
+  margin-top: 67px;
+}
+
 .lorem {
-  position: relative;
+  /* position: relative; */
   width: 253px;
   height: 76px;
   margin: 0;
   padding: 15px 0 0 28px;
 }
 
+.about-us {
+  height: 290px;
+  width: 576px;
+  flex-direction: column;
+}
+
+.who-we-lorem {
+  flex-direction: column;
+  /* height: 158px;
+  width: 576px; */
+}
+
+.we-about {
+  margin-top: 16px;
+}
+
+.about-logos {
+  height: 554px;
+  width: 699px;
+  margin-left: 70px;
+  margin-right: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 160px;
+  align-items: center;
+  /* grid-template-rows: 10px; */
+  row-gap: 0;
+}
+
+.about-logos div:nth-child(3) {
+  grid-column-start: 2;
+  margin-left: -160px;
+}
+
+.about-logos div:nth-child(4) {
+  grid-column-start: 1;
+}
+
+.about-logos div:nth-child(5) {
+  grid-column-start: 2;
+}
 
 /* Typography */
 
@@ -293,6 +349,24 @@ a {
   font-size: 16px;
   line-height: 19px;
   color: rgba(51, 51, 51, 0.8);
+}
+
+.inter-24-normal {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.inter-48-bold {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #333333;
 }
 
 
