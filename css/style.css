@@ -49,7 +49,7 @@ h2 {
   align-items: center;
 }
 
-.header-toppp {
+.header-tel {
   flex-direction: column;
   width: 152px;
 }
@@ -57,18 +57,15 @@ h2 {
 .header-down {
   align-items: center;
   margin-left: 28px;
-  /* margin-top: 4px; */
   width: 285px;
 }
 
 .header-top {
   flex-direction: column;
   width: 238px;
-  /* margin-right: 150px; */
-  /* padding-right: 165px; */
 }
 
-.header-left {
+.header-left-col {
   border-right: 1px solid var(--line-black-color);
   margin-right: 19px;
 }
@@ -95,11 +92,6 @@ a {
   text-decoration: none;
 }
 
-/* .preview-truck { */
-/* margin-left: 12px */
-/* margin-left: 9px; */
-/* } */
-
 .call {
   height: 40px;
   width: 179px;
@@ -109,13 +101,11 @@ a {
 }
 
 .order {
-  /* position: relative; */
   margin: 11px 23px 10px;
   align-items: center;
 }
 
 .text {
-  /* column-gap: 16px; */
   flex-direction: column;
   margin-bottom: 32px;
 }
@@ -208,7 +198,6 @@ a {
   margin: 0;
   right: 0;
   bottom: 0;
-  /* background-image:url(/img/Parts\ sevice.png); */
   mix-blend-mode: multiply;
 }
 
@@ -217,7 +206,6 @@ a {
 }
 
 .lorem {
-  /* position: relative; */
   width: 276px;
   height: 76px;
   margin: 0;
@@ -243,7 +231,6 @@ a {
 .text-ww {
   width: 540px;
   height: 116px;
-  /* margin: 16px 0; */
 }
 
 .we-about {
@@ -251,13 +238,8 @@ a {
 }
 
 .about-logos {
-  /* height: 554px;
-  width: 699px;
-  margin-left: 70px;
-  margin-right: 0; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
   grid-auto-rows: minmax(0, auto);
   justify-content: center;
   align-items: center;
@@ -268,40 +250,14 @@ a {
   align-content: flex-start;
   margin-top: 63px;
   row-gap: 32px;
-  /* grid-template-columns: repeat(3, 1fr);
-  grid-gap: 160px;
-  align-items: center;
-  /* grid-template-rows: 10px; */
-  /* row-gap: 0; */
 }
-
-/* .about-logos div:nth-child(3) {
-  grid-column-start: 2;
-  margin-left: -160px;
-}
-
-.about-logos div:nth-child(4) {
-  grid-column-start: 1;
-}
-
-.about-logos div:nth-child(5) {
-  grid-column-start: 2;
-} */
 
 .about {
   height: 558px;
   width: 1275px;
 }
 
-/* .scania,
-.volvo {
-  padding-top: 0;
-  margin-bottom: 0;
-} */
-
 .map {
-  /* width: 1275px; */
-  /* height: 541px; */
   width: 1440px;
   height: 541px;
   background-color: #f4f4f4;
@@ -324,10 +280,6 @@ a {
 .map-we {
   height: 541px;
   width: 678px;
-}
-
-.we {
-  /* margin: 96px 55px 41px 0; */
 }
 
 .lorem-text {
@@ -431,7 +383,6 @@ a {
 }
 
 .wa-logo {
-  /* margin-bottom: 19px; */
   align-items: center;
   margin-top: 19px;
 }
@@ -439,9 +390,6 @@ a {
 .wa-facebook {
   align-items: center;
   margin-top: 0px;
-}
-
-.wa-inst {
 }
 
 .wa-logo-bish {
@@ -455,7 +403,6 @@ a {
   align-items: center;
   margin: 0 158px 19px 158px;
   padding-top: 18px;
-  /* padding-bottom: 18px; */
 }
 
 /* Typography */
