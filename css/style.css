@@ -453,9 +453,9 @@ a {
   height: 61px;
   border-top: 0.7px solid #474747;
   align-items: center;
-  margin: 18px 158px 19px 158px;
+  margin: 0 158px 19px 158px;
   padding-top: 18px;
-  padding-bottom: 18px;
+  /* padding-bottom: 18px; */
 }
 
 /* Typography */
