@@ -290,7 +290,7 @@ a {
   margin-left: -165px;
   height: 687px;
   width: 1440px;
-  background-image: url(/img/Truck\ holding.png);
+  background-image: url("../img/holding.png");
 }
 
 .questions-place {
