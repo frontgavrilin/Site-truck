@@ -1,641 +1,210 @@
-/* Подключение лого марок с помощью span demo.html */
-
 /* Icons */
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../index.html');
-  src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon.woff') format('woff'),
-    url('../fonts/icomoon.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon' !important;
-  speak: never;
+  font-family: "icomoon";
+  src: url("../index.html");
+  src: url("../fonts/icomoon.eot") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon.woff") format("woff"),
+    url("../fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  }
-  
-.icon-volvo .path1:before {
-  content: "\e904";
-  color: rgb(198, 197, 192);
-  }
-.icon-volvo .path2:before {
-  content: "\e905";
-  margin-left: -1.015625em;
-  color: rgb(0, 0, 0);
-  }
-.icon-volvo .path3:before {
-  content: "\e906";
-  margin-left: -1.015625em;
-  color: rgb(0, 0, 0);
-  }
-.icon-volvo .path4:before {
-  content: "\e907";
-  margin-left: -1.015625em;
-  color: rgb(0, 0, 0);
-  }
-.icon-volvo .path5:before {
-  content: "\e908";
-  margin-left: -1.015625em;
-  color: rgb(0, 0, 0);
-  }
-.icon-volvo .path6:before {
-  content: "\e909";
-  margin-left: -1.015625em;
-  color: rgb(0, 0, 0);
-  opacity: 0.67;
-  }
-  .icon-volvo .path7:before {
-    content: "\e90a";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.67;
-  }
-  .icon-volvo .path8:before {
-    content: "\e90b";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.67;
-  }
-  .icon-volvo .path9:before {
-    content: "\e90c";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.67;
-  }
-  .icon-volvo .path10:before {
-    content: "\e90d";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.67;
-  }
-  .icon-volvo .path11:before {
-    content: "\e90e";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.67;
-  }
-  .icon-volvo .path12:before {
-    content: "\e90f";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.67;
-  }
-  .icon-volvo .path13:before {
-    content: "\e910";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-    opacity: 0.86;
-  }
-  .icon-volvo .path14:before {
-    content: "\e911";
-    margin-left: -1.015625em;
-    color: rgb(29, 29, 27);
-  }
-  .icon-volvo .path15:before {
-    content: "\e912";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-volvo .path16:before {
-    content: "\e913";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-volvo .path17:before {
-    content: "\e914";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-volvo .path18:before {
-    content: "\e915";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-volvo .path19:before {
-    content: "\e916";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-volvo .path20:before {
-    content: "\e917";
-    margin-left: -1.015625em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-volvo .path21:before {
-    content: "\e918";
-    margin-left: -1.015625em;
-    color: rgb(50, 50, 48);
-  }
-  .icon-volvo .path22:before {
-    content: "\e919";
-    margin-left: -1.015625em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-scania .path1:before {
-    content: "\e91a";
-    color: rgb(0, 46, 97);
-  }
-  .icon-scania .path2:before {
-    content: "\e91b";
-    margin-left: -1.7255859375em;
-    color: rgb(0, 46, 97);
-  }
-  .icon-scania .path3:before {
-    content: "\e91c";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path4:before {
-    content: "\e91d";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path5:before {
-    content: "\e91e";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path6:before {
-    content: "\e91f";
-    margin-left: -1.7255859375em;
-    color: rgb(202, 5, 56);
-  }
-  .icon-scania .path7:before {
-    content: "\e920";
-    margin-left: -1.7255859375em;
-    color: rgb(202, 5, 56);
-  }
-  .icon-scania .path8:before {
-    content: "\e921";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path9:before {
-    content: "\e922";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path10:before {
-    content: "\e923";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path11:before {
-    content: "\e924";
-    margin-left: -1.7255859375em;
-    color: rgb(202, 5, 56);
-  }
-  .icon-scania .path12:before {
-    content: "\e925";
-    margin-left: -1.7255859375em;
-    color: rgb(232, 180, 39);
-  }
-  .icon-scania .path13:before {
-    content: "\e926";
-    margin-left: -1.7255859375em;
-    color: rgb(227, 227, 226);
-  }
-  .icon-scania .path14:before {
-    content: "\e927";
-    margin-left: -1.7255859375em;
-    color: rgb(0, 46, 97);
-  }
-  .icon-man .path1:before {
-    content: "\e928";
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path2:before {
-    content: "\e929";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path3:before {
-    content: "\e92a";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path4:before {
-    content: "\e92b";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path5:before {
-    content: "\e92c";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path6:before {
-    content: "\e92d";
-    margin-left: -1.7705078125em;
-    color: rgb(183, 182, 182);
-  }
-  .icon-man .path7:before {
-    content: "\e92e";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path8:before {
-    content: "\e92f";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path9:before {
-    content: "\e930";
-    margin-left: -1.7705078125em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-man .path10:before {
-    content: "\e931";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path11:before {
-    content: "\e932";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path12:before {
-    content: "\e933";
-    margin-left: -1.7705078125em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-man .path13:before {
-    content: "\e934";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path14:before {
-    content: "\e935";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path15:before {
-    content: "\e936";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path16:before {
-    content: "\e937";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path17:before {
-    content: "\e938";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path18:before {
-    content: "\e939";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path19:before {
-    content: "\e93a";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path20:before {
-    content: "\e93b";
-    margin-left: -1.7705078125em;
-    color: rgb(183, 182, 182);
-  }
-  .icon-man .path21:before {
-    content: "\e93c";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path22:before {
-    content: "\e93d";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path23:before {
-    content: "\e93e";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path24:before {
-    content: "\e93f";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path25:before {
-    content: "\e940";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path26:before {
-    content: "\e941";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path27:before {
-    content: "\e942";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path28:before {
-    content: "\e943";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path29:before {
-    content: "\e944";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path30:before {
-    content: "\e945";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path31:before {
-    content: "\e946";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path32:before {
-    content: "\e947";
-    margin-left: -1.7705078125em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-man .path33:before {
-    content: "\e948";
-    margin-left: -1.7705078125em;
-    color: rgb(183, 182, 182);
-  }
-  .icon-man .path34:before {
-    content: "\e949";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path35:before {
-    content: "\e94a";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path36:before {
-    content: "\e94b";
-    margin-left: -1.7705078125em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-man .path37:before {
-    content: "\e94c";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path38:before {
-    content: "\e94d";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path39:before {
-    content: "\e94e";
-    margin-left: -1.7705078125em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-man .path40:before {
-    content: "\e94f";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path41:before {
-    content: "\e950";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path42:before {
-    content: "\e951";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path43:before {
-    content: "\e952";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-man .path44:before {
-    content: "\e953";
-    margin-left: -1.7705078125em;
-    color: rgb(0, 0, 0);
-  }
-  .icon-daf .path1:before {
-    content: "\e954";
-    color: rgb(37, 79, 156);
-  }
-  .icon-daf .path2:before {
-    content: "\e955";
-    margin-left: -3.6669921875em;
-    color: rgb(37, 79, 156);
-  }
-  .icon-daf .path3:before {
-    content: "\e956";
-    margin-left: -3.6669921875em;
-    color: rgb(37, 79, 156);
-  }
-  .icon-daf .path4:before {
-    content: "\e957";
-    margin-left: -3.6669921875em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-daf .path5:before {
-    content: "\e958";
-    margin-left: -3.6669921875em;
-    color: rgb(229, 40, 37);
-  }
-  .icon-Instagram-black:before {
-    content: "\e959";
-    color: #f5f5f6;
-  }
-  .icon-Group:before {
-    content: "\e95a";
-    color: #fff;
-  }
-  .icon-drop:before {
-    content: "\e900";
-  }
-  .icon-ant-design_clock-circle-filled:before {
-    content: "\e901";
-  }
-  .icon-phone:before {
-    content: "\e902";
-  }
-  .icon-facebook:before {
-    content: "\e903";
-    color: #f5f5f6;
-  }
+}
 
-  /* icon-scania path1 path2 path3 path4 path5 path6 path7 path8 path9 path10 path11 path12 path13 path14 */
+.icon-Instagram-black:before {
+  content: "\e959";
+  color: #f5f5f6;
+}
+.icon-Group:before {
+  content: "\e95a";
+  color: #fff;
+}
+.icon-drop:before {
+  content: "\e900";
+}
+.icon-ant-design_clock-circle-filled:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #f5f5f6;
+}
 
-  /* Fonts */
+/* icon-scania path1 path2 path3 path4 path5 path6 path7 path8 path9 path10 path11 path12 path13 path14 */
+
+/* Fonts */
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 100;
   font-display: swap;
   src: url("..//Inter-Thin.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Thin.woff?v=3.19") format("woff");
+    url("../fonts/Inter-Thin.woff?v=3.19") format("woff");
 }
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 100;
   font-display: swap;
   src: url("../fonts/Inter-ThinItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-ThinItalic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-ThinItalic.woff?v=3.19") format("woff");
 }
-  
+
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 200;
   font-display: swap;
   src: url("../fonts/Inter-ExtraLight.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-ExtraLight.woff?v=3.19") format("woff");
+    url("../fonts/Inter-ExtraLight.woff?v=3.19") format("woff");
 }
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 200;
   font-display: swap;
   src: url("../fonts/Inter-ExtraLightItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-ExtraLightItalic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-ExtraLightItalic.woff?v=3.19") format("woff");
 }
-  
+
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url("../fonts/Inter-Light.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Light.woff?v=3.19") format("woff");
+    url("../fonts/Inter-Light.woff?v=3.19") format("woff");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 300;
   font-display: swap;
   src: url("../fonts/Inter-LightItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-LightItalic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-LightItalic.woff?v=3.19") format("woff");
 }
-  
+
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("../fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Regular.woff?v=3.19") format("woff");
+    url("../fonts/Inter-Regular.woff?v=3.19") format("woff");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 400;
   font-display: swap;
   src: url("../fonts/Inter-Italic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Italic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-Italic.woff?v=3.19") format("woff");
 }
-  
+
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url("../fonts/Inter-Medium.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Medium.woff?v=3.19") format("woff");
+    url("../fonts/Inter-Medium.woff?v=3.19") format("woff");
 }
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 500;
   font-display: swap;
   src: url("../fonts/Inter-MediumItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-MediumItalic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-MediumItalic.woff?v=3.19") format("woff");
 }
-  
+
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url("../fonts/Inter-SemiBold.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-SemiBold.woff?v=3.19") format("woff");
+    url("../fonts/Inter-SemiBold.woff?v=3.19") format("woff");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 600;
   font-display: swap;
   src: url("../fonts/Inter-SemiBoldItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-SemiBoldItalic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-SemiBoldItalic.woff?v=3.19") format("woff");
 }
-  
+
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url("../fonts/Inter-Bold.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Bold.woff?v=3.19") format("woff");
+    url("../fonts/Inter-Bold.woff?v=3.19") format("woff");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 700;
   font-display: swap;
   src: url("../fonts/Inter-BoldItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-BoldItalic.woff?v=3.19") format("woff");
-}
-  
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url("../fonts/Inter-ExtraBold.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-ExtraBold.woff?v=3.19") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 800;
-  font-display: swap;
-  src: url("../fonts/Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
-}
-  
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("../fonts/Inter-Black.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-Black.woff?v=3.19") format("woff");
+    url("../fonts/Inter-BoldItalic.woff?v=3.19") format("woff");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-ExtraBold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/Inter-Black.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-Black.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
   font-weight: 900;
   font-display: swap;
   src: url("../fonts/Inter-BlackItalic.woff2?v=3.19") format("woff2"),
-  url("../fonts/Inter-BlackItalic.woff?v=3.19") format("woff");
+    url("../fonts/Inter-BlackItalic.woff?v=3.19") format("woff");
 }
