@@ -333,64 +333,56 @@ a {
 }
 
 .footer {
-  background-color: #1a1a1a;
-  margin-left: -165px;
   height: 391px;
   width: 1440px;
+  background-color: #1a1a1a;
+  margin-left: -165px;
   flex-direction: column;
+  padding-top: 50px;
+  padding-left: 165px;
 }
 
-.f-logo {
-  height: 40px;
-  width: 200px;
-  margin: 50px 76px 240px 146px;
-}
-
-.f-other {
-  width: 887px;
-  height: 213px;
+.fotter-up {
+  height: 280px;
+  width: 1124px;
   justify-content: space-between;
-  margin-top: 50px;
+  border-bottom: 0.7px solid #474747;
 }
 
-.f-main {
+.footer-col {
   flex-direction: column;
+  row-gap: 15px;
 }
 
-.h-main {
-  margin-bottom: 15px;
-}
-
-.f-bottom {
-  margin-bottom: 8px;
-}
-
-.f-right {
-  margin-right: 4px;
-  color: var(--font-white-color);
+.about-menu {
+  flex-direction: column;
+  row-gap: 8px;
 }
 
 .wa-logo {
-  align-items: center;
-  margin-top: 19px;
+  flex-direction: column;
+  row-gap: 4px;
+  color: var(--font-white-color);
 }
 
-.wa-facebook {
+.spot {
   align-items: center;
-  margin-top: 0px;
 }
 
-.wa-logo-bish {
-  align-items: center;
-  margin-top: 16px;
+.ws-logo {
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.follow {
+  flex-direction: column;
+  row-gap: 15px;
 }
 
 .copyright {
-  height: 61px;
-  border-top: 0.7px solid #474747;
-  align-items: center;
-  margin: 0 158px 19px 158px;
-  padding-top: 18px;
+  width: 303px;
+  height: 24px;
+  margin: 18px 800px 18px 0;
 }
 
 .inter-14-normal {
