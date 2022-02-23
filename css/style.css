@@ -31,6 +31,10 @@ h2 {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
 }
@@ -42,6 +46,10 @@ h2 {
 
 .adress {
   width: 285px;
+}
+
+.text-lgo {
+  margin-bottom: 16px;
 }
 
 .header-up {
@@ -120,7 +128,7 @@ a {
   width: 496px;
 }
 
-.what {
+.something {
   height: 52px;
   width: 196px;
   background-color: var(--bg-button-color);
@@ -128,7 +136,7 @@ a {
   align-items: center;
 }
 
-.what-do {
+.button-something {
   margin: 11px 37px;
   align-items: center;
 }
@@ -141,6 +149,10 @@ a {
   height: 152px;
   width: 479px;
   flex-direction: column;
+}
+
+.preview-truck {
+  margin-top: -52px;
 }
 
 .section {
@@ -187,7 +199,7 @@ a {
   width: 505px;
 }
 
-.euro {
+.card-text {
   margin: 0;
   padding: 25px 0 0 28px;
   width: 366px;
@@ -226,6 +238,10 @@ a {
   height: 158px;
   width: 576px;
   margin-bottom: 197px;
+}
+
+.where-we {
+  margin-bottom: 41px;
 }
 
 .text-ww {
@@ -407,39 +423,12 @@ a {
 
 /* Typography */
 
-.inter-16-500 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #333333;
-}
-
-.inter-8 {
+.inter-14-normal {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
-  line-height: 9px;
-  text-transform: uppercase;
-}
-
-.inter-24-bold {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 76px;
-  color: #333333;
-}
-
-.inter-14-300 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 17px;
   color: rgba(51, 51, 51, 0.7);
 }
 
@@ -452,6 +441,15 @@ a {
   color: rgba(51, 51, 51, 0.7);
 }
 
+.inter-16-500 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
 .inter-14-600 {
   font-family: Inter;
   font-style: normal;
@@ -461,48 +459,56 @@ a {
   color: #ffffff;
 }
 
-.inter-14-700 {
+.inter-24-bold {
   font-family: Inter;
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 76px;
   color: #333333;
 }
-
-.inter-14-400 {
+.inter-18-600 {
   font-family: Inter;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+  line-height: 30px;
+  color: #ffffff;
 }
 
-.inter-24-700 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #333333;
-}
-
-.inter-16-400 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: rgba(51, 51, 51, 0.8);
-}
-
-.inter-24-normal {
+.inter-18-normal {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.inter-40-bold {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+}
+
+.inter-24-bold-29 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.inter-16-normal {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
   color: rgba(51, 51, 51, 0.8);
 }
 
@@ -524,16 +530,16 @@ a {
   color: #333333;
 }
 
-.inter-24-normal-w {
+.inter-16-600 {
   font-family: Inter;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
 }
 
-.inter-20-normal {
+.inter-20-500 {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -551,7 +557,7 @@ a {
   color: #ffffff;
 }
 
-.inter-12-normal-nw {
+.inter-12-normal {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
