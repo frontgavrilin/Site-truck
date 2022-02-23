@@ -8,8 +8,6 @@
 
 html {
   box-sizing: border-box;
-  /* width: 1440px; */
-  /* margin-right: 0; */
 }
 
 *,
@@ -19,14 +17,12 @@ html {
 }
 
 body {
-  /* margin: 0; */
   background-color: var(--font-white-color);
   padding: 17px 165px;
   padding-bottom: 0;
   max-width: 1440px;
   width: 1440px;
   margin: auto;
-  /* max-width: 165vw; */
 }
 
 h1,
@@ -51,10 +47,6 @@ button {
   padding-bottom: 17px;
   border-bottom: 1px solid var(--line-black-color);
 }
-
-/* .adress {
-  width: 285px;
-} */
 
 .header-up {
   column-gap: 8px;
@@ -90,9 +82,7 @@ button {
 
 .header-bottom {
   justify-content: space-between;
-  margin: 8px;
-  margin-left: -11px;
-  margin-right: 0;
+  margin: 8px 0 77px -11px;
   align-items: center;
 }
 
@@ -138,10 +128,6 @@ a {
   border: none;
 }
 
-.preview {
-  margin-top: 77px;
-}
-
 .preview-text {
   height: 152px;
   width: 479px;
@@ -178,11 +164,9 @@ a {
 }
 
 .grid {
-  margin-top: 48px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 36px;
-  margin-left: 32px;
   margin: 48px 32px 58px;
 }
 
@@ -211,7 +195,8 @@ a {
 }
 
 .about {
-  margin-top: 125px;
+  height: 558px;
+  width: 1275px;
 }
 
 .lorem {
@@ -223,7 +208,6 @@ a {
 
 .about-us {
   margin: 96px 0 188px;
-  margin-top: 96px;
   padding: 0;
   height: 290px;
   width: 576px;
@@ -235,19 +219,13 @@ a {
   height: 158px;
   width: 576px;
   margin-bottom: 197px;
-}
-
-.where-we {
-  margin-bottom: 41px;
+  margin: 41px 0 197px;
+  row-gap: 16px;
 }
 
 .text-ww {
   width: 540px;
   height: 116px;
-}
-
-.we-about {
-  margin-top: 16px;
 }
 
 .about-logos {
@@ -261,13 +239,8 @@ a {
   width: 464px;
   margin-left: 70px;
   align-content: flex-start;
-  margin-top: 63px;
+  margin-top: 85px;
   row-gap: 32px;
-}
-
-.about {
-  height: 558px;
-  width: 1275px;
 }
 
 .map {
@@ -278,25 +251,16 @@ a {
 }
 
 .about-map {
-  margin: 96px 0 188px;
   padding: 0;
   height: 290px;
   width: 576px;
   flex-direction: column;
-  margin-left: 165px;
-}
-
-.location {
-  margin-left: 21px;
+  margin: 96px 21px 188px 165px;
 }
 
 .map-we {
   height: 541px;
   width: 678px;
-}
-
-.lorem-text {
-  margin-bottom: 16px;
 }
 
 .questions {
@@ -314,27 +278,22 @@ a {
   border-radius: 19px;
   margin-left: 664px;
   margin-top: 70px;
-}
-
-.block {
-  margin-top: 39px;
-  margin-left: 71px;
+  padding: 39px 0 0 71px;
 }
 
 .quest-rew {
-  margin-top: 16px;
-  margin-left: 71px;
   width: 467px;
   height: 44px;
+  margin: 16px 0 35px;
 }
 
-.block-name {
-  background: rgba(71, 98, 255, 0.08);
-  border-radius: 8px;
-  height: 56px;
+.shape {
+  margin-bottom: 27px;
   width: 469px;
-  margin: 35px 71px 23px;
-  align-items: center;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(71, 98, 255, 0.08);
 }
 
 .m-zero {
@@ -342,14 +301,30 @@ a {
   margin-bottom: 0;
 }
 
-.name {
-  width: 426px;
+.full-name {
+  flex-direction: column;
+}
+
+.block-in {
   height: 19px;
+  width: 456px;
   margin: 19px 21px 18px 22px;
 }
 
+.name {
+  width: 426px;
+  border: 0;
+  outline: none;
+}
+
+.block-out {
+  width: 469px;
+  height: 56px;
+  mix-blend-mode: multiply;
+}
+
 .send-button {
-  margin: 37px 71px 40px;
+  margin-bottom: 40px;
   width: 469px;
   height: 66px;
   background: var(--bg-button-color);
@@ -392,7 +367,7 @@ a {
 
 .f-right {
   margin-right: 4px;
-  color: #ffffff;
+  color: var(--font-white-color);
 }
 
 .wa-logo {
@@ -418,15 +393,13 @@ a {
   padding-top: 18px;
 }
 
-/* Typography */
-
 .inter-14-normal {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: rgba(51, 51, 51, 0.7);
+  color: var(--font-silver-color);
 }
 
 .inter-14-500 {
@@ -435,7 +408,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: rgba(51, 51, 51, 0.7);
+  color: var(--font-silver-color);
 }
 
 .inter-16-500 {
@@ -444,7 +417,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #333333;
+  color: var(--font-black-color);
 }
 
 .inter-14-600 {
@@ -453,7 +426,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #ffffff;
+  color: var(--font-white-color);
 }
 
 .inter-24-bold {
@@ -462,7 +435,7 @@ a {
   font-weight: bold;
   font-size: 60px;
   line-height: 76px;
-  color: #333333;
+  color: var(--font-black-color);
 }
 .inter-18-600 {
   font-family: Inter;
@@ -470,7 +443,7 @@ a {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--font-white-color);
 }
 
 .inter-18-normal {
@@ -488,7 +461,7 @@ a {
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
-  color: #333333;
+  color: var(--font-black-color);
 }
 
 .inter-24-bold-29 {
@@ -497,7 +470,7 @@ a {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #333333;
+  color: var(--font-black-color);
 }
 
 .inter-16-normal {
@@ -515,7 +488,7 @@ a {
   font-weight: bold;
   font-size: 48px;
   line-height: 58px;
-  color: #333333;
+  color: var(--font-black-color);
 }
 
 .inter-56-bold {
@@ -524,7 +497,7 @@ a {
   font-weight: bold;
   font-size: 56px;
   line-height: 68px;
-  color: #333333;
+  color: var(--font-black-color);
 }
 
 .inter-16-600 {
@@ -533,7 +506,7 @@ a {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #ffffff;
+  color: var(--font-white-color);
 }
 
 .inter-20-500 {
@@ -542,7 +515,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--font-white-color);
 }
 
 .inter-16-normal-w {
@@ -551,7 +524,7 @@ a {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #ffffff;
+  color: var(--font-white-color);
 }
 
 .inter-12-normal {

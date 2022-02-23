@@ -11,20 +11,6 @@
   font-display: block;
 }
 
-/* [class^="icon-"],
-[class*=" icon-"] {
-  font-family: "icomoon" !important;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "icomoon";
@@ -51,7 +37,7 @@
 }
 .icon-Group:before {
   content: "\e95a";
-  color: #fff;
+  color: #ffff;
 }
 .icon-drop:before {
   content: "\e900";
@@ -66,8 +52,6 @@
   content: "\e903";
   color: #f5f5f6;
 }
-
-/* icon-scania path1 path2 path3 path4 path5 path6 path7 path8 path9 path10 path11 path12 path13 path14 */
 
 /* Fonts */
 
