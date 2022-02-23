@@ -8,8 +8,8 @@
 
 html {
   box-sizing: border-box;
-  width: 1440px;
-  margin-right: 0;
+  /* width: 1440px; */
+  /* margin-right: 0; */
 }
 
 *,
@@ -19,16 +19,24 @@ html {
 }
 
 body {
-  margin: 0;
+  /* margin: 0; */
   background-color: var(--font-white-color);
   padding: 17px 165px;
-  max-width: 165vw;
+  padding-bottom: 0;
+  max-width: 1440px;
+  width: 1440px;
+  margin: auto;
+  /* max-width: 165vw; */
 }
 
 h1,
 p,
 h2 {
   margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 button {
@@ -44,13 +52,9 @@ button {
   border-bottom: 1px solid var(--line-black-color);
 }
 
-.adress {
+/* .adress {
   width: 285px;
-}
-
-.text-lgo {
-  margin-bottom: 16px;
-}
+} */
 
 .header-up {
   column-gap: 8px;
@@ -100,17 +104,13 @@ a {
   text-decoration: none;
 }
 
-.call {
+.order {
   height: 40px;
   width: 179px;
   background-color: var(--bg-button-color);
   border-radius: 8px;
   align-items: center;
-}
-
-.order {
-  margin: 11px 23px 10px;
-  align-items: center;
+  border: none;
 }
 
 .text {
@@ -121,6 +121,7 @@ a {
 .text-logo {
   height: 152px;
   width: 540px;
+  margin-bottom: 16px;
 }
 
 .about-p {
@@ -128,17 +129,13 @@ a {
   width: 496px;
 }
 
-.something {
+.button-something {
   height: 52px;
   width: 196px;
   background-color: var(--bg-button-color);
   border-radius: 8px;
   align-items: center;
-}
-
-.button-something {
-  margin: 11px 37px;
-  align-items: center;
+  border: none;
 }
 
 .preview {
