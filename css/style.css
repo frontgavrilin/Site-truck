@@ -18,7 +18,7 @@ html {
 
 body {
   background-color: var(--font-white-color);
-  padding: 17px 165px;
+  padding: 11px 165px;
   padding-bottom: 0;
   max-width: 1440px;
   width: 1440px;
@@ -35,6 +35,15 @@ a:hover {
   text-decoration: underline;
 }
 
+button:hover {
+  background: rgb(53, 167, 110);
+}
+
+button:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
 button {
   cursor: pointer;
 }
@@ -44,23 +53,26 @@ button {
 }
 
 .header {
-  padding-bottom: 17px;
+  padding-bottom: 11px;
   border-bottom: 1px solid var(--line-black-color);
 }
 
+.dope {
+  flex-direction: column;
+  row-gap: 4px;
+}
+
 .header-up {
-  column-gap: 8px;
-  align-items: center;
+  column-gap: 4px;
 }
 
 .header-tel {
   flex-direction: column;
-  width: 152px;
+  width: 157px;
 }
 
 .header-down {
   align-items: center;
-  margin-left: 28px;
   width: 285px;
 }
 
@@ -70,6 +82,7 @@ button {
 }
 
 .header-left-col {
+  padding: 8px 0 8px 0px;
   border-right: 1px solid var(--line-black-color);
   margin-right: 19px;
 }
@@ -77,6 +90,7 @@ button {
 .header-right {
   width: 100%;
   margin: 0 auto;
+  padding-top: 8px;
   justify-content: space-between;
 }
 
@@ -184,6 +198,12 @@ a {
   margin: 0;
   padding: 25px 0 0 28px;
   width: 366px;
+}
+
+.card-text-acces {
+  margin: 0;
+  padding: 25px 0 0 28px;
+  width: 249px;
 }
 
 .service-img {
@@ -359,9 +379,18 @@ a {
   row-gap: 8px;
 }
 
+.truck-logo {
+  height: 21px;
+}
+
+.icon-center {
+  flex-direction: row;
+  align-items: center;
+}
+
 .wa-logo {
   flex-direction: column;
-  row-gap: 4px;
+  row-gap: 15px;
   color: var(--font-white-color);
 }
 
